@@ -1,7 +1,9 @@
 function Button() {
   return (
     <>
-      <button className="bg-accent">Click</button>
+      <button className="bg-light rounded-full p-2 text-primary">
+        Daftar Sekarang
+      </button>
     </>
   );
 }
