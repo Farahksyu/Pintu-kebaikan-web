@@ -1,24 +1,24 @@
 function Header() {
   return (
-    <header className="flex justify-between">
-      <div className="h-4/6 w-5/12">
+    <nav className="flex items-center justify-between pt-3 pr-20 pb-3 pl-20">
+      <div className=" h-24 w-24">
         <img src="src/assets/icons/logo-mku.png" alt="" />
       </div>
-      <ul className="flex gap-32 text-text">
-        <li>
-          <a className="hover:text-dark">Donasi</a>
-        </li>
-        <li>
-          <a className="hover:text-dark">Layanan</a>
-        </li>
-        <li>
-          <a className="hover:text-dark">Event</a>
-        </li>
-        <li>
-          <a className="hover:text-dark">Akun Saya</a>
-        </li>
-      </ul>
-    </header>
+      <div className="flex space-x-8">
+        <a href="#" className="hover:text-dark">
+          Donasi
+        </a>
+        <a href="#" className="hover:text-dark">
+          Layanan
+        </a>
+        <a href="#" className="hover:text-dark">
+          Event
+        </a>
+        <a href="#" className="hover:text-dark">
+          Akun Saya
+        </a>
+      </div>
+    </nav>
   );
 }
 
