@@ -15,7 +15,11 @@ export default {
     fontFamily: {
       raleway: ["Raleway", "sans-serif"],
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        hero: "url('/src/assets/images/Hero.png')",
+      },
+    },
   },
   plugins: [],
 };
