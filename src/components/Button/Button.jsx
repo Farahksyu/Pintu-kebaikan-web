@@ -1,7 +1,7 @@
 function Button() {
   return (
     <>
-      <button className="bg-light rounded-full p-2 text-primary">
+      <button className="bg-light rounded-full p-2 text-base text-primary">
         Daftar Sekarang
       </button>
     </>
