@@ -1,6 +1,6 @@
 function Header() {
   return (
-    <nav className="flex items-center justify-between pt-3 pr-20 pb-3 pl-20">
+    <nav className="flex items-center justify-between pt-2 pr-20 pl-20">
       <div className=" h-24 w-24">
         <img src="src/assets/icons/logo-mku.png" alt="" />
       </div>
