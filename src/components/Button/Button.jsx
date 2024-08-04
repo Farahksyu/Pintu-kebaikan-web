@@ -1,8 +1,8 @@
-function Button() {
+function Button({ title, className }) {
   return (
     <>
-      <button className="bg-light rounded-full p-2 text-base text-primary">
-        Daftar Sekarang
+      <button className={`rounded-full p-2 text-base ${className}`}>
+        {title}
       </button>
     </>
   );
