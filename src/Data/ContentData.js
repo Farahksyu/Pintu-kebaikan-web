@@ -17,4 +17,22 @@ const dataCards = [
   },
 ];
 
-export { dataCards };
+const cardActivities = [
+  {
+    title: "lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    percentage: "30%",
+  },
+  {
+    title: "lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    percentage: "30%",
+  },
+  {
+    title: "lorem ipsum",
+    description: "Lorem ipsum dolor sit amet consectetur adipisicing elit",
+    percentage: "30%",
+  },
+];
+
+export { dataCards, cardActivities };
