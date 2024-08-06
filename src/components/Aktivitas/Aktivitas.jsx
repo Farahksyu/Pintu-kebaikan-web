@@ -1,5 +1,5 @@
 import Button from "../Button/Button";
-import { Card2 } from "../Card/Card";
+import Card2 from "../Card/Card2";
 import { cardActivities } from "../../Data/ContentData";
 
 function Aktivitas() {
