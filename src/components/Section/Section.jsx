@@ -4,7 +4,7 @@ function Section() {
     <div className="min-h-screen">
       <div className="relative ">
         <img
-          className="absolute top-1 -z-10 w-[954px] h-[954px]"
+          className="absolute top-1 -z-10 w-[354px] h-[354p]"
           src="src/assets/images/bg-ellipse.svg"
           alt=""
         />
@@ -26,17 +26,17 @@ function Section() {
               laporan berkala
             </p>
             <div className="mt-6">
-              <div className="flex border border-dotted rounded-lg">
+              <div className="flex border border-dotted rounded-lg p-2">
                 <img src="src/assets/icons/Sparkle.svg" alt="" />
                 <button className="text-lg">
                   Mustahiq dengan 34 parameter survey
                 </button>
               </div>
-              <div className="flex border border-dotted rounded-lg mt-6 mb-6">
+              <div className="flex border border-dotted rounded-lg mt-6 mb-6 p-2">
                 <img src="src/assets/icons/Sparkle.svg" alt="" />
                 <button className="text-lg">Profil lengkap anak yatim</button>
               </div>
-              <div className="flex border border-dotted rounded-lg">
+              <div className="flex border border-dotted rounded-lg p-2">
                 <img src="src/assets/icons/Sparkle.svg" alt="" />
                 <button className="text-lg">
                   Kemudahan lacak aktivitas report dan tracking
