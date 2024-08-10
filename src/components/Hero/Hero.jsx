@@ -11,16 +11,16 @@ function Hero() {
               className="w-full h-screen"
               alt="Left Image"
             />
-            <div className="absolute top-0 w-full h-full items-center justify-center text-light">
-              <h1 className="text-4xl p-10 font-semibold">
-                Bantu Seluruh <span className="text-secondary">Anak Yatim</span>{" "}
+            <div className="absolute top-0 w-full h-full items-center justify-center text-light p-20">
+              <h1 className="text-4xl font-semibold p-10">
+                Bantu Seluruh <span className="text-accent">Anak Yatim</span>{" "}
                 Membangun Masa Depan
               </h1>
               <p className="ml-10 mr-10 text-xl">
                 Lorem Ipsum is simply dummy text of the printing and typesetting
                 industry. Lorem Ipsum has been the
               </p>
-              <div className="flex justify-around -ml-5 mt-10">
+              <div className="flex justify-around mt-10">
                 <div className="">
                   <h1 className="font-bold text-2xl">100+</h1>
                   <p className="text-lg">Lorem ipsum.</p>
