@@ -4,7 +4,7 @@ import { cardActivities } from "../../Data/ContentData";
 
 function Aktivitas() {
   return (
-    <div className="relative bg-[url('/src/assets/images/Rectangle.png')] bg-no-repeat bg-cover">
+    <div className="relative bg-[url('/src/assets/images/Rectangle.png')] bg-no-repeat bg-contain">
       <div className="p-20">
         <h1
           className="flex flex-col items-center text-3xl text-light text-bold
@@ -39,20 +39,15 @@ function Aktivitas() {
         </div>
       </div>
 
-      <div className="flex flex-row justify-center gap-10">
-        {cardActivities.map(
-          (
-            cardActivity,
-            index //mapping harus ada datanya nah disini datanya di dataCards //dataCard merupakan bagian dari dataCards
-          ) => (
-            <Card2
-              key={index} //key(unique value untuk pembeda komponen (biasanya ada id jika tdk ada id bisa menggunakan index kalau datanya berbentuk array )) untuk mengambil semua data card
-              title={cardActivity.title}
-              description={cardActivity.description}
-              percentage={cardActivity.percentage}
-            />
-          )
-        )}
+      <div className="flex justify-center gap-10">
+        {cardActivities.map((cardActivity, index) => (
+          <Card2
+            key={index}
+            title={cardActivity.title}
+            description={cardActivity.description}
+            percentage={cardActivity.percentage}
+          />
+        ))}
       </div>
     </div>
   );
